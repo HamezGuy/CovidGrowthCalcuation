@@ -1,23 +1,5 @@
 import numpy as np
 
-'''
-Todo: 
-1. Part 1 in P4.
-2. Euclidean distance (currently are all manhattan in my code below)
-3. Complete linkage distance
-4. Total distortion
-5. Output all required information in correct format
-
-PS: Currently, I choose 
-	n = num of all distinct countries, and
-	m = 3 (latitude, longitude, total deaths until Jun27, 
-		  i.e., 1st, 2nd, last number for each country as parameters).
-	Also, for countries that have several rows, I average the latitude, longitude and sum up the deaths.
-
-	You may need to change some of that based on your part 1 results.
-
-'''
-
 
 
 # For 'South Korea', and "Bonaire Sint Eustatius and Saba" (line 145 and 257), I removed the ',' in name manually
